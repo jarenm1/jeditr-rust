@@ -1,0 +1,10 @@
+[package]
+name = "jeditr-rust"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["crates/jeditr-ui"]
+
+[dependencies]
+tokio = { version = "1.45.1", features = ["full"] }
