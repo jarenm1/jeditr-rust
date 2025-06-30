@@ -1,5 +1,3 @@
-
-
 #[derive(Debug, Clone)]
 pub struct Color {
     pub r: f32,
